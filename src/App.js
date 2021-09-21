@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{ useState } from "react";
+import QrReader from "react-qr-reader";
+import { useSound } from "use-sound";
+import Waveurl from "./mixkit-positive-notification-951.wav";
 
 function App() {
+  const [result, setResult] = useState("No result");
+  const [play, { stop }] = useSound(Waveurl, { volume: 0.5 });
+
+  const handleScan = (data) => {
+    if (data) {
+      play();
+      setResult(data);
+    }
+  };
+
+  const handleError = (err) => {
+    console.error(err);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-4">
+          <QrReader
+            delay={3000}
+            onError={handleError}
+            onScan={handleScan}
+            style={{ width: "100%" }}
+          />
+        </div>
+      </div>
+      <p>{result}</p>
     </div>
   );
 }

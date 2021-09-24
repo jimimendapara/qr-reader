@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/qr-reader/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/qr-reader/static/js/main.9dd394e2.chunk.js",
+    "main.js.map": "/qr-reader/static/js/main.9dd394e2.chunk.js.map",
+    "runtime-main.js": "/qr-reader/static/js/runtime-main.751dbf56.js",
+    "runtime-main.js.map": "/qr-reader/static/js/runtime-main.751dbf56.js.map",
+    "static/css/2.818011ed.chunk.css": "/qr-reader/static/css/2.818011ed.chunk.css",
+    "static/js/2.f9730b89.chunk.js": "/qr-reader/static/js/2.f9730b89.chunk.js",
+    "static/js/2.f9730b89.chunk.js.map": "/qr-reader/static/js/2.f9730b89.chunk.js.map",
+    "static/js/3.0454bf43.chunk.js": "/qr-reader/static/js/3.0454bf43.chunk.js",
+    "static/js/3.0454bf43.chunk.js.map": "/qr-reader/static/js/3.0454bf43.chunk.js.map",
+    "index.html": "/qr-reader/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/qr-reader/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/qr-reader/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f9730b89.chunk.js.LICENSE.txt": "/qr-reader/static/js/2.f9730b89.chunk.js.LICENSE.txt",
+    "static/js/3.0454bf43.chunk.js.LICENSE.txt": "/qr-reader/static/js/3.0454bf43.chunk.js.LICENSE.txt",
+    "static/media/mixkit-positive-notification-951.60f7268a.wav": "/qr-reader/static/media/mixkit-positive-notification-951.60f7268a.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.751dbf56.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.f9730b89.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.9dd394e2.chunk.js"
+  ]
+}

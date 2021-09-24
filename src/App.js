@@ -4,8 +4,8 @@ import { useSound } from "use-sound";
 import Waveurl from "./mixkit-positive-notification-951.wav";
 
 function App() {
-  const [result, setResult] = useState("No result");
-  const [play, { stop }] = useSound(Waveurl, { volume: 0.5 });
+  const [result, setResult] = useState("No result App");
+  const [play] = useSound(Waveurl, { volume: 0.5 });
 
   const handleScan = (data) => {
     if (data) {
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-md-6">
           <QrReader
             delay={3000}
             onError={handleError}
